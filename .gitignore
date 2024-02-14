@@ -34,3 +34,12 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+tmp/user_data/*
+index.html
+test/

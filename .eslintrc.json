@@ -1,3 +1,16 @@
 {
-  "extends": "next/core-web-vitals"
+	"extends": [
+		"next/core-web-vitals",
+		"standard",
+		"plugin:tailwindcss/recommended",
+		"prettier"
+	],
+	"ignorePatterns": ["build/*"],
+	"rules": {
+		"quotes": ["error", "single"],
+		"semi": ["error", "never"],
+		"space-before-function-paren": "off",
+		"import/first": "off",
+		"import/no-commonjs": "error"
+	}
 }
